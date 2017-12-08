@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Build_ch') { 
             steps { 
-                sh 'ls' 
+                sh 'cd /etc' 
             }
         }
         stage('Test_ch'){
