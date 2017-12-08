@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Build_jg') { 
             steps { 
-                sh 'ls' 
+                sh 'pwd' 
             }
         }
         stage('Test_jg'){
