@@ -1,0 +1,21 @@
+pipeline {
+    agent any 
+
+    stages {
+        stage('Build_dh') { 
+            steps { 
+                sh 'ls' 
+            }
+        }
+        stage('Test_dh'){
+            steps {
+            sh 'ls'
+            }
+        }
+        stage('Deploy_dh') {
+            steps {
+                sh 'pwd'
+            }
+        }
+    }
+}
